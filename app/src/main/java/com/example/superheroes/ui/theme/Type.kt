@@ -22,7 +22,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.superheroes.R
-
+// digunakan utuk mengatur font yang akan digunakan
 val Cabin = FontFamily(
     Font(R.font.cabin_regular, FontWeight.Normal),
     Font(R.font.cabin_bold, FontWeight.Bold)

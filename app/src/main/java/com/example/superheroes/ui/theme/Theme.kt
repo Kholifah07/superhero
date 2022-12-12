@@ -20,7 +20,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
-
+// digunakan untuk mengatur tema yang akan digunakan
 private val DarkColorPalette = darkColors(
     background = md_theme_dark_background,
     surface = md_theme_dark_surface,
@@ -40,6 +40,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
+//  untuk menetapkan tapilan, warna, bentuk, tipografi yang akan digunakan  dalam aplikasi
 fun SuperheroesTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
     val colors = if (darkTheme) {
         DarkColorPalette

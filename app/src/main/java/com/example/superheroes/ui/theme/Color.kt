@@ -16,6 +16,7 @@
 package com.example.superheroes.ui.theme
 
 import androidx.compose.ui.graphics.Color
+// digunakan untuk menggatur warna
 
 //Light Theme
 val md_theme_light_background = Color(0xFFFDFCF4)

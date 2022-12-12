@@ -39,6 +39,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+            //digunakan untuk mengatur/menyediakan tema
             SuperheroesTheme {
                 SuperheroesApp()
             }
@@ -72,6 +73,7 @@ fun SuperheroesApp() {
  *
  * @param modifier modifiers to set to this composable
  */
+// digunakan utuk mengatur bar
 @Composable
 fun TopAppBar(modifier: Modifier = Modifier) {
     Box(
@@ -86,7 +88,7 @@ fun TopAppBar(modifier: Modifier = Modifier) {
         )
     }
 }
-
+// digunakan untuk mengatur background
 @Preview(showBackground = true)
 @Composable
 fun SuperHeroesPreview() {

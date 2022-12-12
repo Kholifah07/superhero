@@ -16,10 +16,11 @@
 package com.example.superheroes.model
 
 import com.example.superheroes.R
-
+// digunakan untuk infromasi yang akan ditampilkan di app
 object HeroesRepository {
     val heroes = listOf(
         Hero(
+            //nama
             nameRes = R.string.hero1,
             descriptionRes = R.string.description1,
             imageRes = R.drawable.android_superhero1
